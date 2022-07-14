@@ -1,0 +1,55 @@
+@keyframes midsec2anim {
+    from{
+        left:0px
+    }
+
+    to{
+        left:200px
+    }
+}
+@keyframes anim1 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+@keyframes anim2 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 300px;
+    }
+}
+@keyframes anim3 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 350px;
+    }
+}
+@keyframes anim4 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 450px;
+    }
+}
+@keyframes serimganim {
+    from {
+        width: 20px;
+        height: 15px;
+    }
+    to{
+        width: 300px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,12 @@
+#copyright{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* height: 200px; */
+    z-index: 2;
+}
+#copyright div{
+    display: block;
+    color: rgb(0, 0, 0);
+    margin: 8px auto;
+    text-align: center;
+}

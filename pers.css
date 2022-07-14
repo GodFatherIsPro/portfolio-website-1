@@ -1,0 +1,44 @@
+#pers{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(42, 39, 39);
+    z-index: 2;
+
+}
+#myimg{
+    width: 300px;
+    height: 450px;
+    margin: 40px auto;
+}
+#insidepersection{
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 80px 0px;
+    
+}
+#insidepersection h1{
+    font-size: 50px;
+}
+#insidepersection h4{
+    font-size: 20px;
+}
+#insidepersection p{
+    display: inline block;
+    width: 450px;
+
+}
+#insidepersection button{
+    display: inline;
+    width:100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+#insidepersection button:hover{
+    background-color: rgb(174, 165, 154);
+}
+

@@ -1,0 +1,95 @@
+#service{
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    /* height: 720px; */
+
+}
+#servicesheading{
+    text-align: center;
+    display: inline-block;
+    font-size: 34px;
+    margin: auto auto;
+    color: white;
+    width: 400px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px red;
+}
+#services{
+    display: grid;
+    padding: 0px 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    
+}
+#services span h3{
+    margin:10px auto;
+    
+}
+#services span h3{
+    color: white;
+    text-align: center;
+}
+
+#services span .serimg{
+    width:0px;
+    
+    height: 0px;
+    margin: auto auto;
+    border-radius: 15px;
+    box-shadow: 6px 6px  rgb(223, 121, 121)
+    /* animation-name: serimganim;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    animation-iteration-count: 1s; */
+   
+}
+#services .parahserv{
+    color: white;
+    display: none;
+    padding: 23px;
+    text-align: center;
+}
+#services #service1{
+    display: grid;
+    grid-gap: 20px;
+    
+}
+#services .readmoreser{
+    width: 80px;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+#services .readmoreser:active{
+    background-color: transparent;
+    color: white;
+}
+#services .readmoreser:hover{
+    border:2px solid rgb(129, 68, 68);
+}
+#services #service2{
+    display: grid;
+    grid-gap: 20px;
+}
+#services #service3{
+    display: grid;
+    grid-gap: 20px;
+}
+#services span .serimg:hover{
+    transform: scale(1.1);
+    transition: .3s;
+   
+}
+
+

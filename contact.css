@@ -1,0 +1,63 @@
+#contact{
+    position: relative;
+    display: grid;
+    grid-template-areas:
+    "l1 l1 l1" 
+    "l2 l2 l2" 
+    "im1 im2 im3" ;
+    background-color: rgb(36, 28, 28);
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    height:300px
+    
+}
+#contact h1{
+    grid-area: l1;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+#contact p{
+    grid-area: l2;
+    text-align: center;
+
+
+}
+#contact .commonim{
+    width: 40px;
+    height: 40px;
+    margin: 40px auto;
+    border-radius: 60px;
+    cursor: pointer;
+   
+}
+#contact .commonim:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+
+#contact #im1{
+    display: block;
+    position: relative;
+    grid-area: im1;
+    margin: auto;
+    
+}
+
+#contact #im2{
+    display: block;
+    grid-area: im2;
+    margin: auto;
+    
+}
+#contact #im3{
+    display: block;
+    grid-area: im3;
+    margin: auto;
+}
+
