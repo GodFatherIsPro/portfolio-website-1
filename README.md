@@ -3,7 +3,7 @@
   <a href="https://utkarshdev.tk/" target="_blank">UtkarshDev.com</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./readme-img1.png" />
 </div>
 
 <br/>
